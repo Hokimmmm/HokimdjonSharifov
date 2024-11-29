@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e66465, #9198e5); /* Градиентный фон */
+    color: #333; /* Цвет текста */
+}
+
+header {
+    background: rgba(53, 66, 74, 0.9); /* Полупрозрачный фон */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    text-align: center; /* Центрируем текст в навигации */
+    margin: 20px 0; /* Добавляем отступы сверху и снизу */
+}
+
+nav ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы */
+    display: inline-block; /* Делаем список блочным элементом для центрирования */
+}
+
+nav li {
+    display: inline; /* Отображаем элементы списка в строку */
+    margin: 0 15px; /* Добавляем отступы между элементами списка */
+}
+
+nav a {
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: #333; /* Цвет текста ссылок */
+}
+
+nav a:hover {
+    color: #4CAF50; /* Цвет текста при наведении */
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #ffffff; /* Белый фон секций */
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для секций */
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project-image {
+    width: 600px; /* Устанавливаем фиксированную ширину 600 пикселей */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    border: 2px solid #4CAF50; /* Граница вокруг изображения */
+    border-radius: 5px; /* Закругленные углы */
+    margin-top: 10px; /* Отступ сверху */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(53, 66, 74, 0.9); /* Полупрозрачный фон */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.image-display {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image-display img {
+    max-width: 100%; /* Ограничиваем ширину изображения */
+    height: auto; /* Автоматическая высота */
+    border: 2px solid #4CAF50; /* Граница вокруг изображения */
+    border-radius: 5px; /* Закругленные углы */
+}
